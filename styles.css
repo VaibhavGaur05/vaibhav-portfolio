@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 
 :root {
     --primary-color: #ed3a3a;
@@ -7,7 +7,7 @@
 
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 hr{
@@ -60,4 +60,27 @@ hr{
     padding: 0rem 0.5rem;
 }
 
+/**navigation**/
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
 
+.navigation .nav-brand{
+    font-weight: bold;
+    
+}
+
+.navigation .nav-pills{
+    text-align: right;
+}
+
+.navigation .link{
+    color: white;
+}
+
+.navigation .link-active{
+    font-weight: bold;
+}
