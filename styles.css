@@ -30,6 +30,13 @@ hr{
 }
 
 
+/**spaces**/
+.margin-md{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+
 /** links **/
 
 
@@ -128,12 +135,21 @@ hr{
 /**FOOTERS**/
 .footer{
     background-color: var(--primary-color);
-    padding: 2rem 0rem;
+    padding: 2rem 1rem;
     text-align: center;
     color: cornsilk;
     border-top-right-radius: 1rem;
 }
 
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+
 .footer .link{
     color: cornsilk;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
 }
