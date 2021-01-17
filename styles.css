@@ -3,6 +3,8 @@
 :root {
     --primary-color: #ed3a3a;
     --dark-gray: #6B7280;
+    --off-white: #F3F4F6;
+
     
 }
 
@@ -100,10 +102,38 @@ hr{
 }
 
 .hero .hero-heading{
+    text-align: center;
     color: var(--dark-gray);
     padding-top: 1rem;
     text-align: center;
 }
 .hero .hero-heading .heading-inverted{
     color: var(--primary-color);
+}
+
+/**sections**/
+
+.section{
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.ow{
+    background-color: var(--off-white);
+}
+
+/**FOOTERS**/
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 0rem;
+    text-align: center;
+    color: cornsilk;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color: cornsilk;
 }
